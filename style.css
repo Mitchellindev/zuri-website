@@ -147,11 +147,12 @@ a {
 .card p{  
     text-align: left;
     padding-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px; font-size: 24px;
-    line-height: 35px;
-    color: #514949;
+    margin-bottom: 1rem;
     margin-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
 }
 
 .card h3{
@@ -159,9 +160,20 @@ a {
     font-size: 16px;
     line-height: 24px;
     color: #E7332B;
-    font-weight: 300;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 
 }
+/* 
+.dot{
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+    margin-bottom: 48px;
+} */
 
 .footer{
     display: flex;
@@ -202,6 +214,16 @@ hr{
     margin-top: 32px;
     color: #514949;
     padding-bottom: 97px;
+}
+
+.social-media img{
+    width: 18px !important;
+    margin-right: 7px;
+    display: flex;
+}
+
+.social-media{
+    display: flex;
 }
 
 @media (max-width: 768px) {
